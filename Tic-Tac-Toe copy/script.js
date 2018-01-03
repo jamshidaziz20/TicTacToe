@@ -1,8 +1,10 @@
-//Create a 2D array 2x9 (2 rows by 9 columns)
-//First row stores 'X' or 'O'
-//Second row stores the ID's
+
+//This array stores the input
 var elements2D = new Array(9);
+
+//The winning combination for tic tac toe
 var winCombo = [[0, 1, 2], [3, 4, 5], [6, 7, 8], [0, 3, 6], [1, 4, 7], [2, 5, 8], [0, 4, 8], [2, 4, 6]];
+//The user by default will be 'X'
 var current = 'X';
 var moveCounter = 0;
 var answerDiv = document.querySelector("#winner");
